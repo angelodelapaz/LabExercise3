@@ -1,3 +1,5 @@
+from datetime import datetime
+now = datetime.now()
 def merge():
     import pandas as pd
     import numpy as np
@@ -14,3 +16,7 @@ def merge():
     #Save Data
     print('Saving Data...')
     df_merged.to_parquet('merged_data.parquet')
+
+merge()
+with open('./logs.txt', 'a') as f:
+    f.write('{} - Success run \n'.format(now))
