@@ -16,4 +16,4 @@ print('Dropped Duplicates...')
 
 #Save Data
 print('Saving Data...')
-df_customer_transaction.to_parquet('customer_transaction_faultydates_removed.parquet')
+df_customer_transaction.to_parquet('customer_transaction_duplicates_removed.parquet')
