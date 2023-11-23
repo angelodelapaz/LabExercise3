@@ -20,6 +20,7 @@ for col in cols:
 
 print(df_branch_service.shape)
 print(df_branch_service.nunique())
+print('Duplicates Dropped...')
 
 ## Saving Data
 print('Saving Data...')

@@ -7,6 +7,7 @@ print('Data Loaded...')
 #Change Values to Camel Case
 df_branch_service.loc[df_branch_service['branch_name'] == 'Starmall', 'branch_name'] = 'StarMall'
 df_branch_service.loc[df_branch_service['branch_name'] == 'Megamall', 'branch_name'] = 'MegaMall'
+print('Values Changed to Camel Case...')
 
 ## Saving Data
 print('Saving Data...')
