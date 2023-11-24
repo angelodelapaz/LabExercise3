@@ -1,1 +1,1 @@
-python.exe: can't open file '\\\\wsl.localhost\\Ubuntu\\mnt\\c\\Users\\Shaun Padrejuan\\Documents\\GitHub\\LabExercise3\\scripts\\branch_service_roundoff_values.py': [Errno 13] Permission denied
+/bin/sh: 1: /mnt/c/Users/Shaun: Permission denied
