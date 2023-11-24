@@ -6,7 +6,7 @@ from includes.vs_modules.merged_data import merge
 #https://www.youtube.com/watch?v=IsWfoXY_Duk
 
 args = {
-    'owner': 'Vincent Stevenson',
+    'owner': 'Group 3',
     'start_date': days_ago(1) # make start date in the past
 }
 
